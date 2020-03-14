@@ -1,6 +1,6 @@
 # Focus-in-Class-v2
 
-<div align=center>![Screenshot 1](./Screenshot-1.png)
+<img align="center" src="./Screenshot-1.png" alt="Screenshot 1"/>
   
 # What is it?
 By name, this is an application that helps students focus in class. Quite simple, right? So basically I developed this application inspired from this situation:
