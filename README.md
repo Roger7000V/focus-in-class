@@ -61,4 +61,4 @@ The class would be over when the duration is ended.
 - Getting bored with the default theme? Just select **Settings->Theme** option. You'll notice some other themes to select.
 - You could change the background image by replacing the **Backgroung.jpg** file with other images with the same name and extension. You could download some other images in the **Beautiful Images** folder inside this repository.
 
-Now you are ready to use!^_^
+Now you are ready to use! ^_^
