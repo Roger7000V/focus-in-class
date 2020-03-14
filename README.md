@@ -33,7 +33,7 @@ There are four languages supported by this program: English, French, Chinese (Si
 
 ---
 
-On the main interface, there is a quick notes section, where you could take temporary notes. You could edit the texts in bold, italic, underlined, and red via the blue buttons. The reverse buttons are shown in pink. Remember to export the notes via the **Actions->Export Quick Notes** menu. You could also import previous notes via the **Actions->Import Quick Notes** menu.
+The main interface is always on top of other applications. There is a quick notes section, where you could take temporary notes. You could edit the texts in bold, italic, underlined, and red via the blue buttons. The reverse buttons are shown in pink. Remember to export the notes via the **Actions->Export Quick Notes** menu. You could also import previous notes via the **Actions->Import Quick Notes** menu.
 
 If you are trying to take more complicated notes, click the **Notepad** button. This will open the Notepad application in the system.
 
@@ -60,4 +60,4 @@ The class would be over when the duration is ended.
 - Getting bored with the default theme? Just select **Settings->Theme** option. You'll notice some other themes to select.
 - You could change the background image by replacing the **Backgroung.jpg** file with other images with the same name and extension. You could download some other images in the **Beautiful Images** folder inside this repository.
 
-Now you are ready to use!
+Now you are ready to use!^_^
