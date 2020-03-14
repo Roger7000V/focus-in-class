@@ -45,6 +45,7 @@ This is the most important part of this application. You could enter it through 
 
 - locking the windows keys such as **Ctrl+Shift+Esc** and **Win+Tab** (you know the reason😳).
 - forcing into the full screen mode (cannot resize or minimize)
+- hiding taskbar
 - not accessing other applications
 
 **REMEMBER: DO NOT MINIMIZE WHEN USING NOTEPAD OR CALCULATOR DURING FORCE MODE**
