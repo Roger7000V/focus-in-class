@@ -17,7 +17,7 @@ So, what's the solution? I eventually decided to program this **Focus-in-Class**
 2. IMPORTANT: The application needs to run as an administrator. To avoid right click each time, go to the installation folder in **C:\Program Files (x86)\Focus-in-Class**.
 3.  Right click the executable file and select properties. In the compatibility section, choose "Run this program as an administrator" option.
 
-<img src="./Screenshot-2.png" alt="Screenshot 2" width = 30% height = 30%/>
+<img src="./Screenshot-2.png" alt="Screenshot 2" width = 50% height = 50%/>
 
 Alternatively, you could simply change the property of the shortcut created in the desktop.
 
