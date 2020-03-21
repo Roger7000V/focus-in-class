@@ -19,8 +19,6 @@ So, what's the solution? I eventually decided to program this **Focus-in-Class**
 
 <img src="./Screenshot-2.png" alt="Screenshot 2" width = 45% height = 45%/>
 
-Alternatively, you could simply change the property of the shortcut created in the desktop.
-
 ## Portable Method
 
 Download the Portable folder, and the executable file would be included. Change the administrator option similarly.
@@ -60,5 +58,10 @@ The class would be over when the duration is ended.
 
 - Getting bored with the default theme? Just select **Settings->Theme** option. You'll notice some other themes to select.
 - You could change the background image by replacing the **Backgroung.jpg** file with other images with the same name and extension. You could download some other images in the **Beautiful Images** folder inside this repository.
+
+# Uninstallation
+
+1. Run the uninstallation program. If you are using the portable version, just delete the folder.
+2. Detele the remaining two files containing names **Skin** and **SkinH_VB6.dll** in the parent directory.
 
 Now you are ready to use! ^_^
