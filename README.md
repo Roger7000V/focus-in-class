@@ -13,7 +13,7 @@ So, what's the solution? I eventually decided to program this **Focus-in-Class**
 
 ## Prerequisite
 
-Make sure you have **richtx32.ocx** and **comdlg32.ocx** component in your computer. If your computer does not have them, download the files in the repository.
+Make sure you have **RICHTX32.ocx** and **comdlg32.ocx** component in your computer. If your computer does not have them, download the files in the repository.
 
 1. For Windows 32-bit systems, extract the file to **C:\Windows\System32**. Run ```C:\Windows\system32\regsvr32.exe C:\Windows\system32\RICHTX32.ocx``` and ```C:\Windows\system32\regsvr32.exe C:\Windows\system32\comdlg32.ocx```.
 
@@ -73,6 +73,6 @@ The class would be over when the duration is ended.
 
 1. Run the uninstallation program. If you are using the portable version, just delete the folder.
 2. Detele the remaining two files containing names **Skin** and **SkinH_VB6.dll** in the parent directory.
-3. Deregister the ocx files by adding **/U** command. (Example: ```C:\Windows\system32\regsvr32.exe /U C:\Windows\system32\RICHTX32.ocx```) Delete the ocx files in the extracted location based on your system (32 or 64 bit).
+3. Deregister the ocx files by adding the **/U** command. (Example: ```C:\Windows\system32\regsvr32.exe /U C:\Windows\system32\RICHTX32.ocx```) Delete the ocx files in the extracted location based on your system (32 or 64 bit).
 
 Now you are ready to use! ^_^
