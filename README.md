@@ -11,6 +11,18 @@ So, what's the solution? I eventually decided to program this **Focus-in-Class**
 
 # Installation
 
+## Prerequisite
+
+Make sure you have **richtx32.ocx** component in your computer. If your computer does not have it, download the file in the repository.
+
+For Windows 32-bit systems, extract the file to **C:\Windows\System32**. Run **regsvr32.exe %systemroot%\system32\RICHTX32.OCX
+**.
+
+For Windows 64-bit systems, extract the file to **C:\Windows\SysWOW64**. Run **%system32\syswow64\regsvr32.exe %systemroot%\syswow64\RICHTX32.OCX
+**.
+
+The following message would appear: **DllRegisterServer in C:\WINDOWS\system32\RICHTX32.OCX succeeded**, meaning that the component is installed.
+
 ## Default Method
 
 1. Download the **.msi** file and run it. Follow the installation instructions.
