@@ -13,13 +13,13 @@ So, what's the solution? I eventually decided to program this **Focus-in-Class**
 
 ## Prerequisite
 
-Make sure you have **richtx32.ocx** component in your computer. If your computer does not have it, download the file in the repository.
+Make sure you have **richtx32.ocx** and **comdlg32.ocx** component in your computer. If your computer does not have it, download the file in the repository.
 
-1. For Windows 32-bit systems, extract the file to **C:\Windows\System32**. Run ```regsvr32.exe %systemroot%\system32\RICHTX32.OCX```.
+1. For Windows 32-bit systems, extract the file to **C:\Windows\System32**. Run ```regsvr32.exe %systemroot%\system32\RICHTX32.OCX``` and ```regsvr32.exe %systemroot%\system32\comdlg32.OCX```.
 
-2. For Windows 64-bit systems, extract the file to **C:\Windows\SysWOW64**. Run ```%system32\syswow64\regsvr32.exe %systemroot%\syswow64\RICHTX32.OCX```.
+2. For Windows 64-bit systems, extract the file to **C:\Windows\SysWOW64**. Run ```C:\Windows\SysWOW64\regsvr32 C:\Windows\SysWOW64\RICHTX32.ocx``` and ```C:\Windows\SysWOW64\regsvr32 C:\Windows\SysWOW64\comdlg32.ocx```.
 
-The following message would appear: **DllRegisterServer in C:\WINDOWS\system32\RICHTX32.OCX succeeded**, meaning that the component is installed.
+The following messages like this would appear: **DllRegisterServer in C:\Windows\system32\RICHTX32.ocx succeeded**, meaning that the component is installed.
 
 ## Default Method
 
