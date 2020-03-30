@@ -73,6 +73,6 @@ The class would be over when the duration is ended.
 
 1. Run the uninstallation program. If you are using the portable version, just delete the folder.
 2. Detele the remaining two files containing names **Skin** and **SkinH_VB6.dll** in the parent directory.
-3. Deregister the ocx files by adding **/U** command. (Example: ```C:\Windows\SysWOW64\regsvr32.exe /U C:\Windows\SysWOW64\RICHTX32.ocx```)
+3. Deregister the ocx files by adding **/U** command. (Example: ```C:\Windows\system32\regsvr32.exe /U C:\Windows\system32\RICHTX32.ocx```) Delete the ocx files in the extracted location based on your system (32 or 64 bit).
 
 Now you are ready to use! ^_^
