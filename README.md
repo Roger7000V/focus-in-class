@@ -17,7 +17,7 @@ Make sure you have **richtx32.ocx** and **comdlg32.ocx** component in your compu
 
 1. For Windows 32-bit systems, extract the file to **C:\Windows\System32**. Run ```C:\Windows\system32\regsvr32.exe C:\Windows\system32\RICHTX32.ocx``` and ```C:\Windows\system32\regsvr32.exe C:\Windows\system32\comdlg32.ocx```.
 
-2. For Windows 64-bit systems, extract the file to **C:\Windows\SysWOW64**. Run ```C:\Windows\SysWOW64\regsvr32 C:\Windows\SysWOW64\RICHTX32.ocx``` and ```C:\Windows\SysWOW64\regsvr32 C:\Windows\SysWOW64\comdlg32.ocx```.
+2. For Windows 64-bit systems, extract the file to **C:\Windows\SysWOW64**. Run ```C:\Windows\SysWOW64\regsvr32.exe C:\Windows\SysWOW64\RICHTX32.ocx``` and ```C:\Windows\SysWOW64\regsvr32.exe C:\Windows\SysWOW64\comdlg32.ocx```.
 
 The following messages like this would appear: **DllRegisterServer in C:\Windows\system32\RICHTX32.ocx succeeded**, meaning that the component is installed.
 
@@ -73,5 +73,6 @@ The class would be over when the duration is ended.
 
 1. Run the uninstallation program. If you are using the portable version, just delete the folder.
 2. Detele the remaining two files containing names **Skin** and **SkinH_VB6.dll** in the parent directory.
+3. Deregister the ocx files by adding **/U** command. (Example: ```C:\Windows\SysWOW64\regsvr32.exe /U C:\Windows\SysWOW64\RICHTX32.ocx```)
 
 Now you are ready to use! ^_^
