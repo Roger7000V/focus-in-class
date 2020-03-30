@@ -15,7 +15,7 @@ So, what's the solution? I eventually decided to program this **Focus-in-Class**
 
 Make sure you have **richtx32.ocx** and **comdlg32.ocx** component in your computer. If your computer does not have them, download the files in the repository.
 
-1. For Windows 32-bit systems, extract the file to **C:\Windows\System32**. Run ```regsvr32.exe C:\system32\RICHTX32.ocx``` and ```regsvr32.exe C:\system32\comdlg32.ocx```.
+1. For Windows 32-bit systems, extract the file to **C:\Windows\System32**. Run ```C:\Windows\system32\regsvr32.exe C:\Windows\system32\RICHTX32.ocx``` and ```C:\Windows\system32\regsvr32.exe C:\Windows\system32\comdlg32.ocx```.
 
 2. For Windows 64-bit systems, extract the file to **C:\Windows\SysWOW64**. Run ```C:\Windows\SysWOW64\regsvr32 C:\Windows\SysWOW64\RICHTX32.ocx``` and ```C:\Windows\SysWOW64\regsvr32 C:\Windows\SysWOW64\comdlg32.ocx```.
 
