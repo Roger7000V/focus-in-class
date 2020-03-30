@@ -13,7 +13,7 @@ So, what's the solution? I eventually decided to program this **Focus-in-Class**
 
 ## Prerequisite
 
-Make sure you have **richtx32.ocx** and **comdlg32.ocx** component in your computer. If your computer does not have it, download the file in the repository.
+Make sure you have **richtx32.ocx** and **comdlg32.ocx** component in your computer. If your computer does not have them, download the files in the repository.
 
 1. For Windows 32-bit systems, extract the file to **C:\Windows\System32**. Run ```regsvr32.exe C:\system32\RICHTX32.ocx``` and ```regsvr32.exe C:\system32\comdlg32.ocx```.
 
