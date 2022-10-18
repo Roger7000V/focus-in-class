@@ -1,4 +1,4 @@
-# Focus-in-Class-v2
+# Focus-in-Class
 
 <p align="center"><img src="./Screenshot-1.png" alt="Screenshot 1"></p>
   
